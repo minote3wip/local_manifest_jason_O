@@ -16,7 +16,6 @@
 
   <!-- common repos -->
   <remove-project name="LineageOS/android_system_bt" />
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth" />
   <project name="minote3wip/android_system_bt" path="system/bt" groups="pdk" revision="staging/cm-14.1" />
   <project name="minote3wip/android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" revision="staging/cm-14.1" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
