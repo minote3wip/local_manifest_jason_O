@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- device specific repos -->
-  <project name="minote3wip/android_device_xiaomi_jason" path="device/xiaomi/jason" />
-  <project name="minote3wip/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" />
-  <project name="minote3wip/proprietary_vendor_xiaomi" path="vendor/xiaomi" clone-depth="1" />
+  <project name="minote3wip/android_device_xiaomi_jason" path="device/xiaomi/jason" revision="cm-14.1" />
+  <project name="minote3wip/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" revision="cm-14.1" />
+  <project name="minote3wip/proprietary_vendor_xiaomi" path="vendor/xiaomi" clone-depth="1" revision="cm-14.1" />
 
   <!-- platform specific repos -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
-  <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks"  />
-  <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" />
-  <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" revision="cm-14.1" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" revision="cm-14.1" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" revision="cm-14.1" />
   <project name="minote3wip/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/sdm660" groups="qcom,qcom_audio" revision="cm-14.1-caf-660" />
   <project name="minote3wip/android_hardware_qcom_display" path="hardware/qcom/display-caf/sdm660" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-660" />
   <project name="minote3wip/android_hardware_qcom_media" path="hardware/qcom/media-caf/sdm660" groups="qcom" revision="cm-14.1-caf-660" />
